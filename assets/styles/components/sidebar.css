@@ -6,6 +6,7 @@
   gap: 12px;
   height: 100vh;
   padding: 16px 14px;
+  transition: width var(--transition);
   width: 280px;
 }
 
@@ -117,6 +118,7 @@
   }
 
   .sidebar.collapsed {
+    animation: fadeDown var(--transition);
     display: flex;
     height: auto;
     width: 100%;
