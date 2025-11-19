@@ -29,7 +29,7 @@
 
 .card-status {
   background: var(--surface-2);
-  border-radius: 999px;
+  border-radius: 100px;
   border: 1px solid var(--outline);
   color: var(--text-muted);
   font-size: 12px;
@@ -43,12 +43,10 @@
 }
 
 .card-status.neutral {
-  border: 1px solid var(--warning);
   color: var(--warning);
 }
 
 .card-status.down {
-  border: 1px solid var(--danger);
   color: var(--danger);
 }
 
@@ -98,4 +96,36 @@
     var(--bar-green),
     var(--bar-green-dark) 100%
   );
+}
+
+.chart-barh {
+  display: grid;
+  padding: 12px;
+}
+
+.chart-barh-row {
+  align-items: center;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 110px 1fr;
+}
+
+.chart-barh-label {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.chart-barh-bar {
+  background: var(--secondary-contrast);
+  border-radius: 4px;
+  height: 22px;
+  position: relative;
+}
+
+.chart-barh-bar > span {
+  background: var(--color, var(--primary));
+  border-radius: 4px;
+  inset: 0;
+  position: absolute;
+  width: var(--value, 0%);
 }
