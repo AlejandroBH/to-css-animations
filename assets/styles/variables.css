@@ -14,8 +14,9 @@
   --transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
   --focus: 0 0 0 3px rgba(91, 156, 255, 0.45);
 
-  --bar: #5b9cff;
-  --bar-2: #7bda91;
-  --line: #7bda91;
+  --bar-blue: #5b9cff;
+  --bar-blue-dark: #1e3c69;
+  --bar-green: #7bda91;
+  --bar-green-dark: #3c6d47;
   --grid: #2b3340;
 }
