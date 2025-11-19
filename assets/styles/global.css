@@ -2,6 +2,7 @@
 @import url("./variables.css");
 @import url("./global.css");
 @import url("./components/sidebar.css");
+@import url("./components/header.css");
 
 @font-face {
   font-family: Sen;
@@ -15,6 +16,11 @@ body {
   font-family: Sen;
   grid-template-columns: 280px 1fr;
   grid-template-rows: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-rows: auto 1fr;
 }
 
 .logo {
