@@ -11,6 +11,7 @@
   --warning: #ffc861;
   --outline: #2a313b;
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --shadow-2: 0 10px 30px rgba(0, 0, 0, 0.95);
   --transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
   --focus: 0 0 0 3px rgba(91, 156, 255, 0.45);
 
