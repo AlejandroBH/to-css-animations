@@ -1,6 +1,8 @@
-const toogleSidebar = document.getElementById("toogle-sidebar");
+const toogleSidebar = document.querySelectorAll("[toogleSidebar]");
 const sidebar = document.querySelector(".sidebar");
 
-toogleSidebar.addEventListener("click", () => {
-  sidebar.classList.toggle("collapsed");
+toogleSidebar.forEach((element) => {
+  element.addEventListener("click", () => {
+    sidebar.classList.toggle("collapsed");
+  });
 });
