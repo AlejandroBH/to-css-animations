@@ -1,0 +1,48 @@
+@import url("./reset.css");
+@import url("./variables.css");
+@import url("./global.css");
+@import url("./components/sidebar.css");
+
+@font-face {
+  font-family: Sen;
+  src: url("../fonts/sen.ttf");
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  display: grid;
+  font-family: Sen;
+  grid-template-columns: 280px 1fr;
+  grid-template-rows: 100vh;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.btn {
+  align-items: center;
+  background: var(--surface-2);
+  border-radius: 12px;
+  border: 1px solid var(--outline);
+  color: var(--text);
+  cursor: pointer;
+  padding: 10px 12px;
+  transition: background var(--transition), transform var(--transition);
+}
+
+.btn:hover {
+  background: var(--primary-contrast);
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  background: transparent;
+}
+
+.w-full {
+  width: 100%;
+}
