@@ -16,9 +16,10 @@
     <!-- font awesome -->
   </head>
   <body>
-    <aside class="sidebar">
+    <aside class="sidebar" aria-label="barra lateral de menus">
       <div class="sidebar-header">
-        <h1 class="logo">>MyDash_</h1>
+        <i class="fa-solid fa-hashtag"></i>
+        <h1 class="logo">MyDash_</h1>
       </div>
       <nav class="sidebar-nav">
         <a href="#" class="sidebar-nav-item active">
@@ -50,11 +51,11 @@
 
     <main>
       <header class="header">
-        <button class="btn">
+        <button class="btn" id="toogle-sidebar" aria-label="abrir menú">
           <i class="fa-solid fa-bars"></i>
         </button>
 
-        <button class="btn">
+        <button class="btn" aria-label="cambiar de tema">
           <i class="fa-solid fa-moon"></i>
           <!-- <i class="fa-solid fa-sun"></i> -->
         </button>
@@ -243,5 +244,6 @@
         </section>
       </div>
     </main>
+    <script src="scripts/toogle-sidebar.js"></script>
   </body>
 </html>

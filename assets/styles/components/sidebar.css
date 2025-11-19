@@ -6,11 +6,35 @@
   gap: 12px;
   height: 100vh;
   padding: 16px 14px;
+  width: 280px;
+}
+
+.sidebar.collapsed {
+  width: 85px;
+}
+
+.sidebar.collapsed .sidebar-header .logo,
+.sidebar.collapsed .sidebar-nav-label,
+.sidebar.collapsed .sidebar-badge,
+.sidebar.collapsed .sidebar-footer .btn {
+  display: none;
+}
+
+.sidebar.collapsed .sidebar-nav-item {
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.sidebar.collapsed .sidebar-header {
+  justify-content: center;
 }
 
 .sidebar-header {
+  align-items: center;
   background: rgba(255, 255, 255, 0.04);
   border-radius: 10px;
+  display: flex;
+  gap: 4px;
   padding: 12px;
 }
 
