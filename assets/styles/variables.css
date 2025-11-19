@@ -21,3 +21,20 @@
   --bar-green-dark: #3c6d47;
   --grid: #2b3340;
 }
+
+:root[data-theme="light"] {
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --surface-2: #f0f3f9;
+  --text: #16202e;
+  --text-muted: #546072;
+  --primary: #2f6fff;
+  --primary-contrast: #eaf0ff;
+  --accent: #1fb77f;
+  --danger: #e74c3c;
+  --warning: #e0a12d;
+  --outline: #dde3ee;
+  --shadow: 0 10px 24px rgba(10, 25, 45, 0.07);
+  --shadow-2: 0 10px 30px rgba(10, 2, 45, 0.95);
+  --grid: #e7ecf5;
+}
